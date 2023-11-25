@@ -1,0 +1,44 @@
+Python is an interpreted, object-oriented, high-level programming with dynamic semantics
+
+The developer of Python is Guido Van Rossum. It was developed in 1991. The inspiration for the name came from BBC’s TV Show – ‘Monty Python’s Flying Circus’
+
+Interpreter and Compliers convert the source code (high level language) to machine code or assembly level ( 0 and 1)
+
+Compiler:
+
+    It converts high level language to intermediate assembly language by a complier and then assembled into machine code by an assembler
+
+Interpreted:
+
+
+Hybrid Approach
+    Code privacy from compilation and portability from interpretation
+
+    ![Block Diagram of Hybrid Approach](image-3.png)
+
+
+Python is both complied and interpreted language
+
+![Block Diagram of Python interpretation](image.png)
+
+Python Virtual Machine (PVM) is a program which provides programming environment. The role of PVM is to convert the byte code instructions into machine code so the computer can execute those machine code instructions and display the output
+
+The .py is the source code
+    .pyc is the Complied Python File (bytecode)
+
+if we provide .pyc file to PVM it converts the bytecode in the .pyc file to machine level language
+
+To Get The Bytecode Of The .py file
+
+    1. Open the interactive shell by typing python.exe in the command prompt
+    2. import py_compile
+    3. py_compile.compile('.py_filename_path') ex: py_compile.compile('C:\Users\abhin\OneDrive\Desktop\Python Programs\demo.py')
+    4. >>>C:\\Users\\abhin\\OneDrive\\Desktop\\Python Programs\\__pycache__\\demo.cpython-312.pyc
+    5. The bytecode file is present in the above mentioned path ( usually in the pycache) folder
+
+
+Advantages of Python
+    1. Easy-to-learn & Easy-to-Use
+        Python has very intuitive syntax. Reading python code is like reading English script with some punctuation which makes it so easy to learn, understand, read and code. Python doesn't make use of curly brackets to define the blocks of code, which further improves the readability of the code. As compared to other programming languages such as C++ and Java, Python requires fewer lines of code to do the same task making it less bulky.
+
+
