@@ -39,6 +39,27 @@ To Get The Bytecode Of The .py file
 
 Advantages of Python
     1. Easy-to-learn & Easy-to-Use
-        Python has very intuitive syntax. Reading python code is like reading English script with some punctuation which makes it so easy to learn, understand, read and code. Python doesn't make use of curly brackets to define the blocks of code, which further improves the readability of the code. As compared to other programming languages such as C++ and Java, Python requires fewer lines of code to do the same task making it less bulky.
+        Python has very intuitive syntax. Reading python code is like reading English script with some punctuation which makes it so easy to learn, understand, read and code.
+    
+    2. Interpreted Language
+        Python is designed as an interpreted language, which means the whole code would be executed line by line directly. If there is an error in between the block of code, that single error will get encountered right away causing the further program to stop, which assists in debugging the code fast. If that block contains multiple errors, only one error will be shown at a time, making it easier for the programmer to debug it
 
+    3. Free & Open Source
+        OSI(Open Source Initiative) has approved Python to be an open-source language that offers its users to use it for free and distribute. Programmers can download the source code from the internet, make some modifications, and can distribute their versions of python. This has leveraged many organizations by having their form of python and can use it for development accordingly.
 
+    4. Easily Portable
+        Portable is something that can be easily carried. Most programming languages like C and C++ need to be edited before running them on different platforms. This is one of the key advantages that python has over them. It is easily portable as once written, it can be run on any platform. This is referred to as Write Once Run Anywhere(WORA). However, the python program must not include any system-dependent features.
+
+    5. Massive Libraries
+        Python's usage has increased significantly due to its wide range of libraries. These enormous libraries include numerous functions already programmed that a user needs to use. Hence, the dependence on external libraries is very minimal.
+
+    6. Cross Platform
+        If we have made a python program on MAC then we can run the same code in the Linux, Windows or any other os without any changes
+
+    7. GUI Programming support
+        Python has many GUI libraries like Tkinter, PyQT5, Pside2
+
+    8. Dynamically Typed Language
+        There is no need to declare the datatype. Memory management is ensured internally by the use of a private heap in a python. Due to this feature there is not concept of pointers in the python
+
+    ![Why Python](<Screenshot (1).png>)
